@@ -1,0 +1,77 @@
+/* Apply Bootstrap */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+/* Background Image Styling */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url('https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+}
+
+/* Login Box */
+.login-box {
+  width: 400px;
+  padding: 30px;
+  background-image: linear-gradient(to right, #f5e3e3,  #dddeb79d, #9a999956);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 10.0);
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* Title */
+.login-title {
+  color: #0a0909;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Input Fields */
+.MuiOutlinedInput-root {
+  background: rgba(215, 224, 209, 0.9);
+  border-radius: 8px;
+  
+}
+
+  .input-field,label {
+   
+    color: #0a0a0a;
+  }
+/* Login Button */
+.login-button {
+  margin-top: 15px;
+  background-color: #1976d2 !important; /* Material-UI Primary Color */
+  color: white !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.signup-link {
+  margin-top: 15px;
+  color: rgb(226, 105, 105);
+  text-align: right;  /* Center the text */
+  display: block; /* Ensure it takes full width */
+}
+
+.signup-link a {
+  color: #64a6dc; /* Light blue */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+  color: #1775c2;
+}
